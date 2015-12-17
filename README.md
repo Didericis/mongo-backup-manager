@@ -16,8 +16,6 @@ Everything in `dbDir` needs to meet the following requirements:
 - Have a date string that can be understood by `new Date(name)` somewhere in the end of the title
 - Be a folder created by `mongodump`
 
-Also, the command `restoreMeteorMongo` must be issued
-
 ### config.json
 ````json
 {
