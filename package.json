@@ -1,0 +1,12 @@
+{
+  "name": "restoreMeteorMongo",
+  "version": "0.0.1",
+  "description": "A command line utility for backing up and restoring mongo when used with meteor",
+  "author": "Didericis <didericis@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "prompt": "^0.2.14",
+    "terminal-menu": "^2.1.1"
+  }
+}
