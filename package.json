@@ -1,6 +1,6 @@
 {
   "name": "mongo-backup",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A command line utility for backing up and restoring mongo",
   "author": "Didericis <didericis@gmail.com>",
   "license": "MIT",
@@ -12,9 +12,6 @@
   },
   "bin": {
       "mongo-backup": "bin/mongo-backup.js"
-  },
-  "scripts": {
-    "install": "scripts/install.js"
   },
   "preferGlobal": "true",
   "repository": "https://github.com/Didericis/mongo-backup.git"
