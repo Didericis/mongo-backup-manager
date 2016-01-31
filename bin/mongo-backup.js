@@ -12,7 +12,6 @@ var Validate = require('../lib/Validate.js');
 
 var config = new Config.Config();
 var packageJson = require('../package.json');
-var defaultBackupsPath = require('../lib/Config').DEFAULT_BACKUPS_PATH;
 
 function removeProfile(config) {
     var options = config.listProfiles();
