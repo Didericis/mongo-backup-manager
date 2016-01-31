@@ -21,4 +21,4 @@ Dump from profile
 
 Restore form profile
 
-![Restore](http://i.imgur.com/c9d2JNL.gif)
+![Restore](http://i.imgur.com/h84NXm8.gif)
