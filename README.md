@@ -1,4 +1,4 @@
-# meteor-backup
+# mongo-backup
 Utility for managing and restoring mongodb backups
 
 ### Installation
