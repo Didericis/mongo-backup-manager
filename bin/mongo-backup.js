@@ -5,13 +5,13 @@ var fs = require('fs');
 var inquirer = require('inquirer');
 var path = require('path');
 
-var Config = require('./lib/Config.js');
-var dump = require('./lib/Dump.js').dump;
-var restore = require('./lib/Restore.js').restore;
-var Validate = require('./lib/Validate.js');
+var Config = require('../lib/Config.js');
+var dump = require('../lib/Dump.js').dump;
+var restore = require('../lib/Restore.js').restore;
+var Validate = require('../lib/Validate.js');
 
 var config = new Config.Config();
-var packageJson = require(path.join(__dirname, 'package.json'));
+var packageJson = require('../package.json');
 
 function removeProfile(config) {
     var options = config.listProfiles();
