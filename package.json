@@ -1,6 +1,6 @@
 {
   "name": "mongo-backup",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A command line utility for backing up and restoring mongo",
   "author": "Didericis <didericis@gmail.com>",
   "license": "MIT",
