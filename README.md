@@ -1,13 +1,13 @@
-# mongo-backup
+# mongo-backup-manager
 Utility for managing and restoring mongodb backups
 
 ### Installation
-`npm install -g git+https://git@github.com/Didericis/mongo-backup.git`
+`npm install -g git+https://git@github.com/Didericis/mongo-backup-manager.git`
 
 
 ### Run
 
-1. Type `mongo-backup` and press enter
+1. Type `mongo-backup-manager` and press enter
 
 ### Use
 
