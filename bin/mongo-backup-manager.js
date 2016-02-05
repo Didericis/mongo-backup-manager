@@ -4,6 +4,7 @@ var clear = require('clear');
 var fs = require('fs');
 var inquirer = require('inquirer');
 var path = require('path');
+var validFilename = require('valid-filename');
 
 var Config = require('../lib/Config.js');
 var dump = require('../lib/Dump.js').dump;
@@ -44,6 +45,8 @@ var Inputs = {
         this.validate = function(name) {
             if (!name) {
                 return new Error('Profile must have a name');
+            } else if (!validFilename(name)) {
+                return new Error('Profile name must be a valid directory name');
             } else {
                 return true;
             }
