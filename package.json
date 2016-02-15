@@ -12,8 +12,8 @@
     "validator": "^4.5.1"
   },
   "bin": {
-    "mongo-backup": "bin/mongo-backup.js"
+    "mongo-backup-manager": "bin/mongo-backup-manager.js"
   },
   "preferGlobal": "true",
-  "repository": "https://github.com/Didericis/mongo-backup.git"
+  "repository": "https://github.com/Didericis/mongo-backup-manager.git"
 }
