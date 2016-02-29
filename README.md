@@ -4,6 +4,7 @@ Utility for managing and restoring mongodb backups
 ### Installation
 `npm install -g git+https://git@github.com/Didericis/mongo-backup-manager.git`
 
+NOTE: If you don't have ownership of the directory for global npm packages, you may need to add `sudo` to the beginning of the above command.
 
 ### Run
 
