@@ -10,6 +10,8 @@ NOTE: If you don't have ownership of the directory for global npm packages, you 
 
 1. Type `mongo-backup-manager` and press enter
 
+NOTE: If you had to use `sudo` to install, you will also have to use `sudo` to run. This will be addressed in later versions.
+
 ### Use
 
 Add profile
