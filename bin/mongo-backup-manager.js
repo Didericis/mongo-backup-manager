@@ -34,7 +34,7 @@ function removeProfile(config) {
             config.save();
             main();
         }
-    });    
+    });
 }
 
 var Inputs = {
@@ -63,7 +63,7 @@ var Inputs = {
                 return true;
             } catch(e) {
                 return e;
-            } 
+            }
         };
         this.default = defaultHost;
     },
@@ -77,10 +77,10 @@ var Inputs = {
                 return true;
             } catch(e) {
                 return e;
-            } 
+            }
         };
-        this.default = defaultPort || function() { 
-            return 27017; 
+        this.default = defaultPort || function() {
+            return 27017;
         };
     },
     db: function DbInput(defaultDb) {
@@ -153,7 +153,7 @@ function selectProfileArg(profile) {
         } else {
             editProfileArg(profile, answers.profileProp);
         }
-    });    
+    });
 }
 
 function editProfile(config) {
@@ -235,12 +235,12 @@ function main() {
             case OPTIONS.RESTORE:
                 restore(config)
                 .then(done)
-                .catch(done);
+                .catch(logErr);
                 break;
             case OPTIONS.DUMP:
                 dump(config)
                 .then(done)
-                .catch(done);
+                .catch(logErr);
                 break;
             case OPTIONS.EXIT:
                 done();
@@ -250,7 +250,11 @@ function main() {
 }
 
 function done() {
-    console.log('\nDone!');  
+    console.log('\nDone!');
+}
+
+function logErr(err) {
+    console.log('LOG', err.length);
 }
 
 main();
